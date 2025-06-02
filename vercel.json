@@ -1,13 +1,5 @@
 {
-  "builds": [
-    {
-      "src": "vite.config.*",
-      "use": "@vercel/static-build",
-      "config": {
-        "distDir": "dist"
-      }
-    }
-  ],
+  "framework": "vite",
   "routes": [
     {
       "src": "/(.*)",
